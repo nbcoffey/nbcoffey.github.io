@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: NBC
+title: Niall B. Coffey
 email: nbcoffey@stanford.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  PhD Candidate in Geophysics at Stanford University studying Glaciers and Oceans
+  PhD Candidate in Geophysics at Stanford University. Probably thinking about glaciers and the ocean.
 # twitter_username: username
 github_username: nbcoffey
 minimal_mistakes_skin: mint
@@ -57,8 +57,8 @@ plugins:
 
 author:
   name   : "Niall Coffey"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "PhD Candidate in Geophysics at Stanford University studying Glaciers and Oceans"
+  avatar : "/assets/images/niall-photo.jpg"
+  bio    : "PhD Candidate in Geophysics at Stanford University. Probably thinking about glaciers and the ocean."
   links:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
@@ -79,8 +79,8 @@ author:
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
 
-footer:
-  links:
+# footer:
+#   links:
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
