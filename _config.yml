@@ -58,6 +58,7 @@ plugins:
 author:
   name   : "Niall Coffey"
   avatar : "/assets/images/niall-photo.jpg"
+  avatar_size: large
   bio    : "PhD Candidate in Geophysics at Stanford University. Probably thinking about glaciers and the ocean."
   links:
     # - label: "Website"
@@ -72,6 +73,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:nbcoffey@stanford.edu"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0002-3368-8839"
     # - label: "GitHub"
     #   icon: "fab fa-fw fa-github"
     #   url: "https://github.com/nbcoffey"
