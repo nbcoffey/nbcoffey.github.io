@@ -1,0 +1,39 @@
+<div class="sidebar sticky">
+  {% assign author = page.author | default: page.authors | default: site.author %}
+  {% assign author_links = site.data.authors[author].links | default: site.author.links %}
+
+  <div class="author__profile" itemscope itemtype="https://schema.org">
+    <div class="author__avatar">
+      <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" itemprop="image" class="u-photo">
+    </div>
+
+    <div class="author__content">
+      <h3 class="author__name" itemprop="name">{{ site.author.name }}</h3>
+      {% if site.author.bio %}
+        <div class="author__bio" itemprop="description">
+          <p>{{ site.author.bio }}</p>
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="author__urls-wrapper">
+      <button class="btn btn--inverse">Follow</button>
+      <ul class="author__urls social-icons">
+        {% for link in author_links %}
+          {% assign icon_color = "" %}
+          {% if link.label contains "Scholar" %}{% assign icon_color = "color: #4285F4;" %}
+          {% elsif link.label contains "LinkedIn" %}{% assign icon_color = "color: #0A66C2;" %}
+          {% elsif link.label contains "Email" %}{% assign icon_color = "color: #8C1515;" %}
+          {% elsif link.label contains "ORCID" %}{% assign icon_color = "color: #A6CE39;" %}
+          {% endif %}
+
+          <li>
+            <a href="{{ link.url | relative_url }}" rel="nofollow noopener noreferrer">
+              <i class="{{ link.icon }}" aria-hidden="true" style="{{ icon_color }}"></i> <span>{{ link.label }}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

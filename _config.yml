@@ -16,11 +16,11 @@
 title: Niall B. Coffey
 email: nbcoffey@stanford.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  PhD Candidate in Geophysics at Stanford University. Probably thinking about glaciers and the ocean.
+  Probably thinking about glaciers and the ocean.
 # twitter_username: username
 github_username: nbcoffey
 minimal_mistakes_skin: mint
-search: true
+search: false
 
 # Build settings
 markdown: kramdown
@@ -59,7 +59,7 @@ author:
   name   : "Niall Coffey"
   avatar : "/assets/images/niall-photo.jpg"
   avatar_size: large
-  bio    : "PhD Candidate in Geophysics at Stanford University. Probably thinking about glaciers and the ocean."
+  bio    : "Probably thinking about glaciers and the ocean."
   links:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
@@ -76,6 +76,9 @@ author:
     - label: "ORCID"
       icon: "fab fa-fw fa-orcid"
       url: "https://orcid.org/0000-0002-3368-8839"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/niall-coffey-0b365b387/"
     # - label: "GitHub"
     #   icon: "fab fa-fw fa-github"
     #   url: "https://github.com/nbcoffey"

@@ -21,8 +21,9 @@ In the summer months, surface melting of the Greenland ice sheet results in thou
 
 ![Lake image placeholder](/assets/images/research-lakes.png){: .align-center style="width: 100%;"}
 
-**Related Literature:**
-- Lai, C.-Y.\*, Rines, J. R.\*, **Coffey, N. B.**\*, et al. (2026). Perturbing the Neighbors: How Subglacial Blisters Can Influence Nearby Supraglacial Lakes. *In prep*.
+**Related Works:**
+- Chapter 3 of my [Ph.D. Thesis](https://doi.org/10.25740/bg726cn0210).
+- Lai, C.-Y.\*, Rines, J. R.\*, **Coffey, N. B.**\*, et al. (2026). From blistering to sliding: Ice-sheet stress perturbations from water injection to the bed. *In review*.
 - [Not my work, but highly relevant!](https://doi.org/10.1029/2023JF007481)
 <!-- - Not me, but highly relevant! [Stevens, L. A., Das, S. B., Behn, M. D., McGuire, J. J., Lai, C.-Y., Joughin, I., et al. (2024). Elastic stress coupling between supraglacial lakes. *Journal of Geophysical Research: Earth Surface*, 129, e2023JF007481.](https://doi.org/10.1029/2023JF007481) -->
 
@@ -32,15 +33,17 @@ In the summer months, surface melting of the Greenland ice sheet results in thou
 
 ![Ocean circulation placeholder](/assets/images/research-ocean.png){: .align-left style="width: 40%;"}
 
-The Antarctic Circumpolar Current and adjacent subpolar gyres play a crucial role in global heat transport towards Antarctic ice shelves. The large-scale, Southern Hemisphere westerly winds have been growing stronger and shifting southward, in agreement with atmospheric carbon dioxide and ozone forcing. How will these wind changes alter the supply and locations of oceanic heat approaching Antarctica? How may the ocean accommodate changes in surface momentum input? I investigate how the ocean responds to changes in wind stress in an idealized setting using the MITgcm ocean model, with implications for understanding future ocean warming and ice-ocean interactions.
+The Antarctic Circumpolar Current and adjacent subpolar gyres play a crucial role in global heat transport towards Antarctic ice shelves. The large-scale, Southern Hemisphere westerly winds have been growing stronger and shifting southward, in agreement with atmospheric carbon dioxide and ozone forcing. How will these wind changes alter the supply and locations of oceanic heat approaching Antarctica? 
+<!-- How may the ocean accommodate changes in surface momentum input?  -->
+I investigate how the ocean responds to changes in wind stress in an idealized setting using the MITgcm ocean model, with implications for understanding future ocean warming and ice-ocean interactions.
 
 <!-- Using the MITgcm ocean model, I examine:
 - Transient responses of the ACC-subpolar gyre system to wind perturbations
 - Timescales of adjustment and heat transport changes
 - Remote versus local wind forcing effects -->
 
-**Related Literature:**
-- **Coffey, N. B.** & Wilson, E. A. (2026). The Transient Response of the Antarctic Circumpolar Current-Subpolar Gyre System to Zonal Wind Stress Perturbations. *In prep*.
+**Related Works:**
+- **Coffey, N. B.**, Wilson, E. A., Prend, C. J. (2026). Wind-driven Antarctic Circumpolar Current-subpolar gyre interactions and their impact on poleward heat transport pathways. *In review*. [Link](https://doi.org/10.22541/essoar.15006789/v1).
 - [Not my work, but highly relevant!](https://doi.org/10.1038/s43247-024-01207-y)
 
 ---
@@ -53,12 +56,12 @@ My work demonstrates that there is **no single universal calving law**, but rath
 
 ![Calving placeholder](/assets/images/research-calving.jpg){: .align-center style="width: 100%;"}
 
-If you are an ice sheet modeler with questions about implementing calving, with my work or in general, don't hesitate to reach out.
+If you are an ice sheet modeler with questions about implementing calving, with my work or in general, don't hesitate to reach out. You can find my general thoughts on calving, e.g. for ISMIP7, in my [Ph.D. Thesis Epilogue](https://doi.org/10.25740/bg726cn0210).
 
-**Related Literature:**
-- Bradley, A. T., Lai, C.-Y. & **Coffey, N. B.** (2026). Timescales of Antarctic Ice-Shelf Loss by basal-crevassing. *In review*. [Link](https://eartharxiv.org/repository/view/10917/)
-- **Coffey, N. B.** & Lai, C.-Y. (2025). Horizontal force-balance calving laws: Ice shelves, marine- and land-terminating glaciers. *Journal of Glaciology*. [Link](https://doi.org/10.1017/jog.2025.10068)
-- **Coffey, N. B.**, Lai, C.-Y., Wang, Y., Buck, W. R., Surawy-Stepney, T., & Hogg, A. E. (2024). Theoretical stability of ice shelf basal crevasses with a vertical temperature profile. *Journal of Glaciology*. [Link](https://doi.org/10.1017/jog.2024.52)
+**Related Works:**
+- Bradley, A. T., Lai, C.-Y. & **Coffey, N. B.** (2026). Timescales of Antarctic Ice-Shelf Loss by basal-crevassing. *In review*. [Link](https://eartharxiv.org/repository/view/10917/).
+- **Coffey, N. B.** & Lai, C.-Y. (2025). Horizontal force-balance calving laws: Ice shelves, marine- and land-terminating glaciers. *Journal of Glaciology*. [Link](https://doi.org/10.1017/jog.2025.10068).
+- **Coffey, N. B.**, Lai, C.-Y., Wang, Y., Buck, W. R., Surawy-Stepney, T., & Hogg, A. E. (2024). Theoretical stability of ice shelf basal crevasses with a vertical temperature profile. *Journal of Glaciology*. [Link](https://doi.org/10.1017/jog.2024.52).
 
 ---
 
@@ -70,8 +73,8 @@ During my undergraduate research, I investigated the enigmatic surface "rolls" o
 
 ![Rolls placeholder](/assets/images/research-rolls.png){: .align-center style="width: 100%;"}
 
-**Related Literature:**
-- **Coffey, N. B.**, MacAyeal, D. R., Copland, L., Mueller, D. R., Sergienko, O. V., Banwell, A. F., & Lai, C.-Y. (2022). Enigmatic surface rolls of the Ellesmere Ice Shelf. *Journal of Glaciology*. [Link](https://doi.org/10.1017/jog.2022.3)
+**Related Works:**
+- **Coffey, N. B.**, MacAyeal, D. R., Copland, L., Mueller, D. R., Sergienko, O. V., Banwell, A. F., & Lai, C.-Y. (2022). Enigmatic surface rolls of the Ellesmere Ice Shelf. *Journal of Glaciology*. [Link](https://doi.org/10.1017/jog.2022.3).
 - [Not my work, but follow-on work exploring morphological protection!](doi:10.1017/jog.2023.58)
 
 ---

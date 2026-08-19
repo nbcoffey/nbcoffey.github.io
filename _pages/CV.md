@@ -23,25 +23,48 @@ I’m interested in understanding physical processes in polar regions with globa
 <!-- For more information, see [research page](research.md). -->
 
 ### Education
-**2023--2026** Ph.D. in Geophysics, Stanford University, Advised by Ching-Yao Lai
+**2023--2026** Ph.D. in Geophysics, Stanford University, Advised by Ching-Yao Lai; *Thesis:* [On the Tensile Fracture of Glacial Ice](https://purl.stanford.edu/bg726cn0210)
 
 **2021--2023** Ph.D. Student in Atmospheric and Oceanic Science, Princeton University, Transferred with advisor Ching-Yao Lai to Stanford
 
 **2017--2021** B.A. in Physics (specialization Astrophysics) and Economics (specialization Data Science), University of Chicago
 
 ### Publications (\*: co-first authors)
-#### In prep
-*   Coffey, N. B. & Wilson, E. A. (2026). The Transient Response of the Antarctic Circumpolar Current-Subpolar Gyre System to Zonal Wind Stress Perturbations.
-*   Lai, C.-Y.\*, Rines, J. R.\*, Coffey, N. B.\*, Lee, E., Clerc, F., Hilditch, J. P., Stevens, L. A., Gagliardini, O. (2026). Perturbing the Neighbors: How Subglacial Blisters Can Influence Nearby Supraglacial Lakes.
-
 #### In review
-*   Bradley, A.T., Lai, C.-Y. & Coffey, N. B. (2024). Timescales of Antarctic Ice-Shelf Loss by basal-crevassing. Nature Climate Change.
+<ul style="list-style: none; padding-left: 0; margin-left: 0;">
+  {% assign count = site.data.in_review | size %}
+  {% for paper in site.data.in_review %}
+    <li style="margin-bottom: 1.5em; text-indent: -2.5em; padding-left: 2.5em; list-style-type: none;">
+      <strong>[{{ count }}]</strong> {{ paper.authors }} {{ paper.year }}. {{ paper.title }} <em>{{ paper.journal }}</em>, {{ paper.status }}.
+      {% if paper.url %}
+        <a href="{{ paper.url }}">{{ paper.doi_label }}</a>
+      {% endif %}
+    </li>
+    {% assign count = count | minus: 1 %}
+  {% endfor %}
+</ul>
 
 #### Published
-*   [Coffey, N. B. & Lai, C.-Y. (2025). Horizontal force-balance calving laws: Ice shelves, marine- and land-terminating glaciers. Journal of Glaciology, 1–57. doi:10.1017/jog.2025.10068](https://www.cambridge.org/core/journals/journal-of-glaciology/article/horizontal-forcebalance-calving-laws-ice-shelves-marine-and-landterminating-glaciers/501497A81CA2CDD4EB429739709F10E7)
-*   [Nicola, L., …, Keisling, B. (2025). Where do we want the glaciological community to be in 2073? Equality, Diversity, and Inclusion challenges and visions from the 2023 Karthaus Summer School. Journal of Glaciology, 1–34. doi:10.1017/jog.2025.18](https://www.cambridge.org/core/journals/journal-of-glaciology/article/where-do-we-want-the-glaciological-community-to-be-in-2073-equality-diversity-and-inclusion-challenges-and-visions-from-the-2023-karthaus-summer-school/51C9EEDA2A0A00EAFC8CDE9024055EF9)
-*   [Coffey, N. B., Lai, C.-Y., Wang, Y., Buck, W. R., Surawy-Stepney, T., & Hogg, A. E. (2024). Theoretical stability of ice shelf basal crevasses with a vertical temperature profile. Journal of Glaciology, 70, e64. doi:10.1017/jog.2024.52](https://www.cambridge.org/core/journals/journal-of-glaciology/article/theoretical-stability-of-ice-shelf-basal-crevasses-with-a-vertical-temperature-profile/C1FC452021A95FE3C25266E6E050E8DF)
-*   [Coffey, N. B., MacAyeal, D. R., Copland, L., Mueller, D. R., Sergienko, O. V., Banwell, A. F., & Lai, C.-Y. (2022). Enigmatic surface rolls of the Ellesmere Ice Shelf. Journal of Glaciology, 68(271), 867–878. doi:10.1017/jog.2022.3](https://www.cambridge.org/core/journals/journal-of-glaciology/article/enigmatic-surface-rolls-of-the-ellesmere-ice-shelf/1EB6BE9BE612471AFDE9F51B135FFCDD)
+<ul style="list-style: none; padding-left: 0; margin-left: 0;">
+  {% assign count = site.data.papers | size %}
+  {% for paper in site.data.papers %}
+    <li style="margin-bottom: 1.5em; text-indent: -2.5em; padding-left: 2.5em; list-style-type: none;">
+      <strong>[{{ count }}]</strong> {{ paper.authors }} {{ paper.year }}. {{ paper.title }} <em>{{ paper.journal }}</em>, {{ paper.pages }}. <a href="{{ paper.url }}">{{ paper.doi_label }}</a>
+    </li>
+    {% assign count = count | minus: 1 %}
+  {% endfor %}
+</ul>
+
+### Data Sets
+<ul style="list-style: none; padding-left: 0; margin-left: 0;">
+  {% assign count = site.data.datasets | size %}
+  {% for data in site.data.datasets %}
+    <li style="margin-bottom: 1.5em; text-indent: -2.5em; padding-left: 2.5em; list-style-type: none;">
+      <strong>[{{ count }}]</strong> {{ data.authors }} {{ data.year }}. {{ data.title }} <a href="{{ data.url }}">{{ data.doi_label }}</a>
+    </li>
+    {% assign count = count | minus: 1 %}
+  {% endfor %}
+</ul>
 
 ### Presentations
 See [presentations page](presentations.md).
