@@ -19,7 +19,7 @@ header:
 }
 </style>
 
-Hi, I'm Niall! I am interested in polar climate and have specialized in the physics of glaciers and the ocean. My research uses theoretical analysis, numerical methods, and remote sensing observations methods to understand the physical processes that lead to sea level rise, change the ocean circulation, and further impact people and ecosystems.
+Hi, I'm Niall! I am interested in polar climate and have specialized in the physics of glaciers and the ocean. My research uses theoretical analysis, numerical methods, and remote sensing observations to understand the physical processes that lead to sea level rise, change the ocean circulation, and further impact people and ecosystems.
 
 I am originally from Long Island, NY, and am an ardent supporter of debatable local phrases like "on line". I have recently completed my PhD in Geophysics at Stanford University. Prior to Stanford, I completed the first two years of my PhD in Princeton AOS. Before then, I earned my bachelor's degree in Physics and Economics at the University of Chicago. Outside of work, I enjoy the outdoors, pretty much all sports and exercise, electronic music, and laughing with friends.
 
